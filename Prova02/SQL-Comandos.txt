@@ -1,0 +1,34 @@
+use veiculosdb;
+
+CREATE TABLE veiculo(
+  id INT(2) NOT NULL AUTO_INCREMENT,
+  modelo VARCHAR(100) NOT NULL,
+  ano VARCHAR(4),
+  numeroSerie VARCHAR(30),
+  marca VARCHAR(30),
+  cor VARCHAR(30),
+  tipo VARCHAR(15),
+  PRIMARY KEY(id)
+);
+
+
+insert into veiculo(modelo,ano,numeroSerie,marca,cor,tipo) 
+values ( 'Xsara Break Glx 1.6 16V 5P Aut.','1999','8888-9999','Citroen', 'Prata','Terrestre')
+;
+
+insert into veiculo(modelo,ano,numeroSerie,marca,cor,tipo) 
+values ('Ducato Combinato 2.8 Diesel','2000','1111-1111','Fiat', 'Prata','Terreste')
+;
+
+insert into veiculo(modelo,ano,numeroSerie,marca,cor,tipo) 
+values ('Strada Adventure 1.8 Mpi 8V 103Cv Ce', '2020','2222-2222','Fiat', 'Prata','Terrestre')
+;
+
+
+insert into veiculo(modelo,ano,numeroSerie,marca,cor,tipo) 
+values ('Tempra Ouro/Prata 2.0 2P E 4P','2014','3333-3333','Fiat', 'Prata','Terrestre')
+;
+
+insert into veiculo(modelo,ano,numeroSerie,marca,cor,tipo) 
+values ('Ecosport Xls 1.6/ 1.6 Flex 8V 5P','2016','4444-4444','Ford', 'Prata','Terrestre')
+;
